@@ -4,7 +4,8 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <div className={styles.page}>
-      <a href="login">Fazer o Login</a>
+      <h1>Bem-vindo à Barbearia dos Amigos</h1>
+      <a href="login">Clique aqui para fazer o login</a>
     </div>
   );
 }
